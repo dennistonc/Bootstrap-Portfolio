@@ -6,18 +6,18 @@
   position: relative;
 } */
 
-nav {
+/* nav {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   color: #777777;
   float: right;
   margin-top: 35px;
-}
+} */
 
-a {
+/* a {
   color: #777777;
   text-decoration: underline;
-}
+} */
 
 h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -43,9 +43,10 @@ body {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: #f8f9fa;
   border-bottom: 2px solid #cccccc;
   top: 0px;
+  z-index: 1;
 }
 
 #logo {
@@ -64,16 +65,14 @@ body {
 }
 
 .mainabout {
-  height: 500px;
+  height: auto;
   width: 960px;
   background-color: #ffffff;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
   color: #777777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  border-style: solid;
-  border-width: 1px;
   margin: 0 auto;
   margin-top: 150px;
   overflow: auto;
@@ -102,16 +101,14 @@ body {
 }
 
 .mainportfolio {
-  height: 850px;
+  height: auto;
   width: 960px;
   background-color: #ffffff;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
   color: #777777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  border-style: solid;
-  border-width: 1px;
   margin: 0 auto;
   margin-top: 150px;
   margin-bottom: 100px;
@@ -129,16 +126,14 @@ body {
 }
 
 .maincontact {
-  height: 600px;
+  height: auto;
   width: 960px;
   background-color: #ffffff;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
   color: #777777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  border-style: solid;
-  border-width: 1px;
   margin: 0 auto;
   margin-top: 150px;
   overflow: auto;
@@ -212,7 +207,8 @@ td {
   /* Button Over Images */
 .container {
   position: relative;
-  width: 75%;
+  width: 100%;
+  z-index: 0;
 }
 
 .container img {
@@ -224,13 +220,15 @@ td {
   position: absolute;
   bottom: 10px;
   left: 0%;
-  width: 100%;
+  width: 94%;
   background-color: #4aaaa5;
   color: white;
   font-size: 16px;
   padding: 12px 0px 12px 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  margin-left: 15px;
+  margin-right: 15px;
   border: none;
   cursor: pointer;
 }
@@ -258,7 +256,7 @@ td {
 
 
   @media screen and (max-width: 980px) {
-    nav {
+    /* nav {
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 18px;
       color: #777777;
@@ -276,14 +274,14 @@ td {
       font-family: 'Georgia', Times, Times New Roman, serif;
       font-size: 38px;
       color: #4aaaa5;
-    }
+    } */
     
     body {
       background-image: url("../images/spikes.png");
       background-repeat: repeat;
     }
     
-    .headercontainer {
+    /* .headercontainer {
       width: 100%;
       max-width: 960px;
       margin: 0 auto;
@@ -315,10 +313,10 @@ td {
       background: #4aaaa5;
       top: 0px;
       margin-left:20px;
-    }
+    } */
     
     .mainabout {
-      height: 500px;
+      height: auto;
       width: 75%;
       background-color: #ffffff;
       border-width: 2px;
@@ -357,7 +355,7 @@ td {
     }
     
     .mainportfolio {
-      height: 650px;
+      height: auto;
       width: 75%;
       background-color: #ffffff;
       border-width: 2px;
@@ -384,7 +382,7 @@ td {
     }
     
     .maincontact {
-      height: 600px;
+      height: auto;
       width: 75%;
       background-color: #ffffff;
       border-width: 2px;
@@ -472,7 +470,7 @@ td {
     }
     
     .container img {
-      width: 75%;
+      width: 100%;
       height: auto;
     }
     
@@ -480,13 +478,15 @@ td {
       position: absolute;
       bottom: 10px;
       left: 0%;
-      width: 75%;
+      width: 90%;
       background-color: #4aaaa5;
       color: white;
       font-size: 16px;
       padding: 8px 0px 8px 0px;
-      padding-left: 50px;
-      padding-right: 50px;
+      /* padding-left: 50px;
+      padding-right: 50px; */
+      margin-left: 15px;
+      margin-right: 15px;
       border: none;
       cursor: pointer;
     }
@@ -498,7 +498,7 @@ td {
 
 
   @media screen and (max-width: 768px) {
-    nav {
+    /* nav {
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 20px;
       color: #777777;
@@ -555,10 +555,10 @@ td {
       background: #4aaaa5;
       top: 0px;
       margin-left:20px;
-    }
+    } */
     
     .mainabout {
-      height: 500px;
+      height: auto;
       width: 94%;
       background-color: #ffffff;
       border-width: 2px;
@@ -599,7 +599,7 @@ td {
     }
     
     .mainportfolio {
-      height: 650px;
+      height: auto;
       width: 94%;
       background-color: #ffffff;
       border-width: 2px;
@@ -626,7 +626,7 @@ td {
     }
     
     .maincontact {
-      height: 600px;
+      height: auto;
       width: 94%;
       background-color: #ffffff;
       border-width: 2px;
@@ -715,7 +715,7 @@ td {
     }
     
     .container img {
-      width: 75%;
+      width: 100%;
       height: auto;
     }
     
@@ -723,13 +723,13 @@ td {
       position: absolute;
       bottom: 10px;
       left: 0%;
-      width: 75%;
+      width: 91%;
       background-color: #4aaaa5;
       color: white;
       font-size: 18px;
       padding: 8px 0px 8px 0px;
-      padding-left: 50px;
-      padding-right: 50px;
+      /* padding-left: 50px;
+      padding-right: 50px; */
       border: none;
       cursor: pointer;
     }
@@ -741,7 +741,7 @@ td {
 
 
   @media screen and (max-width: 640px) {
-    nav {
+    /* nav {
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 20px;
       color: #777777;
@@ -798,10 +798,10 @@ td {
       background: #4aaaa5;
       top: 0px;
       margin-left:20px;
-    }
+    } */
     
     .mainabout {
-      height: 500px;
+      height: auto;
       width: 94%;
       background-color: #ffffff;
       border-width: 2px;
@@ -842,7 +842,7 @@ td {
     }
     
     .mainportfolio {
-      height: 1500px;
+      height: auto;
       width: 94%;
       background-color: #ffffff;
       border-width: 2px;
@@ -870,7 +870,7 @@ td {
     }
     
     .maincontact {
-      height: 600px;
+      height: auto;
       width: 94%;
       background-color: #ffffff;
       border-width: 2px;
@@ -968,13 +968,13 @@ td {
       position: absolute;
       bottom: 10px;
       left: 0%;
-      width: 85%;
+      width: 80%;
       background-color: #4aaaa5;
       color: white;
       font-size: 18px;
       padding: 8px 0px 8px 0px;
-      padding-left: 50px;
-      padding-right: 50px;
+      /* padding-left: 50px;
+      padding-right: 50px; */
       border: none;
       cursor: pointer;
     }
